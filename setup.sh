@@ -106,8 +106,8 @@ esac
 
 # Installing Java
 # Java 21 is installed for compatibility with Minecraft 1.17 and above
-echo -e "Installing Java 21 Runtime\n if you want to install Java 8, you can install it manually by running \n'pkg install openjdk-8-jre-headless -y'"
-pkg install openjdk-21-jre-headless -y
+echo -e "Installing Java 21. \n sadly, Java 8 is not available in termux repositories"
+pkg install openjdk-21 -y
 
 # Running the Minecraft Server
 echo "Making EULA file"
