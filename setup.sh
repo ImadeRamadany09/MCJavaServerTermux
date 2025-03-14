@@ -1,4 +1,3 @@
-# filepath: c:\Users\En3my\Coding\MCJavaServerTermux\setup.sh
 #!/bin/bash
 
 echo "Minecraft Server Setup Script for Arm64 Devices"
@@ -11,8 +10,8 @@ echo "Making a Shortcut for the Minecraft Server Directory with termux home dire
 ln -s ~/storage/shared/minecraft_server ~/minecraft_server
 
 # Updating & Installing dependencies
-echo -e "Updating system packages"
-pkg upgrade -y && sleep 2 && echo "System packages updated successfully"
+echo -e "Updating system packages and Install wget"
+pkg upgrade -y && pkg install wget -y && sleep 2 && echo "System packages updated successfully"
 
 # Setting up storage permission
 echo -e "Setting up storage permission"

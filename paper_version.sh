@@ -1,4 +1,3 @@
-# filepath: c:\Users\En3my\Coding\MCJavaServerTermux\minecraft_versions.sh
 declare -A MINECRAFT_VERSIONS
 MINECRAFT_VERSIONS=(
     ["1.17.1"]="https://example.com/minecraft_server.1.17.1.jar"

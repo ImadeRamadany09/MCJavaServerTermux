@@ -1,4 +1,3 @@
-# filepath: c:\Users\En3my\Coding\MCJavaServerTermux\minecraft_versions.sh
 declare -A MINECRAFT_VERSIONS
 MINECRAFT_VERSIONS=(
     ["1.17.1"]="https://piston-data.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar"
