@@ -69,7 +69,7 @@ case $variant in
             if [[ -n "${MINECRAFT_VERSIONS[$version]}" ]]; then
                 echo "Installing Minecraft $version"
                 # Download and install the server jar
-                curl "${MINECRAFT_VERSIONS[$version]}" -o minecraft_server.jar
+                curl "${MINECRAFT_VERSIONS[$version]}" -o server.jar
             else
                 echo "Invalid Version Selected"
             fi
@@ -91,7 +91,7 @@ case $variant in
             if [[ -n "${MINECRAFT_VERSIONS[$version]}" ]]; then
                 echo "Installing Minecraft $version"
                 # Download and install the server jar
-                curl "${MINECRAFT_VERSIONS[$version]}" -o minecraft_server.jar
+                curl "${MINECRAFT_VERSIONS[$version]}" -o server.jar
             else
                 echo "Invalid Version Selected"
             fi
