@@ -55,7 +55,7 @@ case $variant in
     1)
         echo "Vanilla Server Selected"
             # Source the Minecraft Vanilla versions file
-            source vanilla_versions.sh
+            source ./vanilla_versions.sh
         echo "Making Directory for Minecraft Server in ~/storage/shared"
             mkdir -p ~/storage/shared/minecraft_server
             cd ~/storage/shared/minecraft_server
@@ -77,7 +77,7 @@ case $variant in
     2)
         echo "Paper Server selected, Installing Paper Server..."
             # Source the Minecraft Paper versions file
-            source paper_versions.sh
+            source ./paper_versions.sh
         echo "Making Directory for Minecraft Server in ~/storage/shared"
             mkdir -p ~/storage/shared/minecraft_server
             cd ~/storage/shared/minecraft_server
