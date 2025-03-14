@@ -106,7 +106,7 @@ esac
 
 # Installing Java
 # Java 21 is installed for compatibility with Minecraft 1.17 and above
-echo -e "Installing Java 21. \n sadly, Java 8 is not available in termux repositories"
+echo -e "Installing Java 21. \n sadly, Java 8 is not available in termux repositories so you must find an alternative way to install it."
 pkg install openjdk-21 -y
 
 # Running the Minecraft Server
